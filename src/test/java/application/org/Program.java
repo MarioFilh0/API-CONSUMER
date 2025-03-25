@@ -9,11 +9,8 @@ public class Program {
 		
 		Api api = new Api();
 		
-
-		
-		
 		try {
-			Endereco end = api.getEndereco("78135395");
+			Endereco end = api.getEndereco("01001000");
 			System.out.println(end);
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
